@@ -11,17 +11,17 @@ import tom from "../Assets/sounds/tom.wav";
 export type KeyConfig = {
   id: string;
   key: string;
-  sound: any;
+  sound: string;
 };
 
 export const keyConfigs: KeyConfig[] = [
-  { id: "clap", key: "a", sound: boom },
-  { id: "hi_hat", key: "s", sound: clap },
-  { id: "kick", key: "d", sound: hi_hat },
-  { id: "open_hat", key: "f", sound: kick },
-  { id: "boom", key: "g", sound: open_hat },
+  { id: "clap", key: "a", sound: clap },
+  { id: "hi_hat", key: "s", sound: hi_hat },
+  { id: "kick", key: "d", sound: kick },
+  { id: "open_hat", key: "f", sound: open_hat },
+  { id: "boom", key: "g", sound: boom },
   { id: "ride", key: "h", sound: ride },
   { id: "snare", key: "j", sound: snare },
-  { id: "tom", key: "k", sound: tink },
-  { id: "tink", key: "l", sound: tom },
+  { id: "tom", key: "k", sound: tom },
+  { id: "tink", key: "l", sound: tink },
 ];
